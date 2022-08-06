@@ -9,9 +9,9 @@ const BINANCE_URLS = {
     account: 'https://api.binance.com/api/v3/account'
   },
   futures: {
-    trades: 'https://fapi.binance.com/fapi/v1/userTrades',
-    income: 'https://fapi.binance.com/fapi/v1/income',
-    account: 'https://fapi.binance.com/fapi/v2/account'
+    trades: 'https://testnet.binancefuture.com/fapi/v1/userTrades',
+    income: 'https://testnet.binancefuture.com/fapi/v1/income',
+    account: 'https://testnet.binancefuture.com/fapi/v2/account'
   }
 };
 

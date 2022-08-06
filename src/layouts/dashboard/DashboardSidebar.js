@@ -13,7 +13,7 @@ import { MHidden } from '../../components/@material-extend';
 import sidebarConfig from './SidebarConfig';
 import profilePicture from '../../assets/avatar_default.jpg';
 import BTCprice from './BTCprice';
-import { CONFIGURATION } from '../../config/api-keys';
+// import { CONFIGURATION } from '../../config/api-keys';
 
 // ----------------------------------------------------------------------
 
@@ -69,9 +69,6 @@ export default function DashboardSidebar({ isOpenSidebar, onCloseSidebar }) {
           <AccountStyle>
             <Avatar src={profilePicture} alt="photoURL" />
             <Box sx={{ ml: 2 }}>
-              <Typography variant="subtitle2" sx={{ color: 'text.primary' }}>
-                {CONFIGURATION.profile.name}
-              </Typography>
               <Typography variant="body2" sx={{ color: 'text.secondary' }}>
                 Crypto Trader
               </Typography>

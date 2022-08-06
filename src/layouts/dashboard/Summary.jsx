@@ -76,14 +76,14 @@ const Summary = () => {
           backgroundColor="secondary"
         />
       </Grid>
-      <Grid item xs={6} sm={4} md={2}>
+      {/* <Grid item xs={6} sm={4} md={2}>
         <SummaryBox
           text="Balance"
           total={fCurrency(Math.round(account?.totalWalletBalance))}
           color="error"
           backgroundColor="primary"
         />
-      </Grid>
+      </Grid> */}
     </>
   );
 };

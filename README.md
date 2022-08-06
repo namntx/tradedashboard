@@ -20,3 +20,4 @@ Currently only Binance and Futures are supported.
 
 - Total weight consumption: First load of the page `915 weight`, after that every minute your data is refreshed automatically and consumes `135 weight / minute`.
 - Reminder: Binance API allows you to consume up to `1200 weight / minute / IP`.
+# tradedashboard

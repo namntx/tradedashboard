@@ -27,3 +27,6 @@ yarn-error.log*
 
 # config
 /src/config/api-keys.js
+
+# Local Netlify folder
+.netlify
