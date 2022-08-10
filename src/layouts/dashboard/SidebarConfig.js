@@ -12,11 +12,11 @@ const sidebarConfig = [
     path: '/dashboard/app',
     icon: getIcon(pieChart2Fill)
   },
-  {
-    title: 'Order history',
-    path: '/dashboard/orderHistory',
-    icon: getIcon(fileTextFill)
-  }
+  // {
+  //   title: 'Order history',
+  //   path: '/dashboard/orderHistory',
+  //   icon: getIcon(fileTextFill)
+  // }
   // {
   //   title: 'login',
   //   path: '/login',
