@@ -26,9 +26,9 @@ const DashboardApp = () => (
       <Grid container spacing={3}>
         <Summary />
 
-        {/* <Grid item xs={12} md={6} lg={8}>
-          <PerformanceOverview />
-        </Grid> */}
+        <Grid item xs={12} md={6} lg={8}>
+          <TopPerformers />
+        </Grid>
 
         <Grid item xs={12} md={6} lg={4}>
           <PositionsRepartition />
@@ -38,9 +38,9 @@ const DashboardApp = () => (
           <TopPerformers />
         </Grid>
 
-        <Grid item xs={12} md={6} lg={4}>
+        {/* <Grid item xs={12} md={6} lg={4}>
           <LastOrders />
-        </Grid>
+        </Grid> */}
 
         {/* <Grid item xs={12} md={6} lg={4}>
           <AppCurrentSubject />
